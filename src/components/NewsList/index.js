@@ -7,6 +7,7 @@ const NewsList = ({ news }) => {
         <ul className="news-list--container">
             {news.map(item => (
                 <News
+                    key={item.name}
                     title={item.name}
                     description={item.description}
                     date={item.datePublished}

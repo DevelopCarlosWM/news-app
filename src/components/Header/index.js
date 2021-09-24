@@ -8,7 +8,7 @@ const Header = ({ onChangeFilter }) => {
             <div className="header--items__container">
                 <select onChange={e => onChangeFilter(e.target.value)}>
                     {categories.map(item => (
-                        <option value={item}>{item}</option>
+                        <option value={item} key={item}>{item}</option>
                     ))}
                 </select>
             </div>
