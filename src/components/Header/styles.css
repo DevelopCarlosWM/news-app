@@ -1,0 +1,29 @@
+.header {
+    height: 100px;
+    background: #FC71AC;
+    background: -webkit-linear-gradient(top left, #FC71AC, #47469E);
+    background: -moz-linear-gradient(top left, #FC71AC, #47469E);
+    background: linear-gradient(to bottom right, #FC71AC, #47469E);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.header .header--items__container {
+    display: flex;
+    width: 100%;
+
+}
+.header .header--items__container select{
+    margin: 20px;
+    background: #783fa6;
+    width: 140px;
+    border: none;
+    border-radius: 25px;
+    padding: 8px;
+    color: #fff;
+}
+
+.header .header--items__container select option {
+    
+}

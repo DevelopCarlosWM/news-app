@@ -3,7 +3,7 @@ import './styles.css';
 
 const News = ({ image, description, title, date }) => {
 
-    const  formattedDate = (d = new Date) => {
+    const  formattedDate = (d = new Date()) => {
         let month = String(d.getMonth() + 1);
         let day = String(d.getDate());
         const year = String(d.getFullYear());
