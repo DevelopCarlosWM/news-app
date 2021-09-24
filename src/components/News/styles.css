@@ -1,0 +1,28 @@
+.new--container__wrapper {
+    border: solid 1px #f8f8f8;
+    border-radius: 5px;
+    margin: 20px 0px;
+    background: #f8f8f8;
+    box-shadow: 0px 7px 13px 0px rgba(136,132,132,0.75);
+    -webkit-box-shadow: 0px 7px 13px 0px rgba(136,132,132,0.75);
+    -moz-box-shadow: 0px 7px 13px 0px rgba(136,132,132,0.75);
+}
+.new--container__wrapper .new--title {
+    padding: 10px;
+    font-size: 14px;
+}
+.new--container__wrapper .new-image {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.new--container__wrapper .new--description {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.new--container__wrapper .new--date {
+    padding: 10px;
+    text-align: right;
+    font-size: 10px;
+}
